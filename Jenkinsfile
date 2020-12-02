@@ -33,7 +33,7 @@ pipeline {
         stage('Deliver') { // (1)
             agent any
             environment { // (2)
-                VOLUME = '/c/Users/mike/Documents/GitHub/simple-python-pyinstaller-app/sources:/src'
+                VOLUME = '/c/Users/songzhaohui5/Documents/GitHub/simple-python-pyinstaller-app/sources:/src'
                 IMAGE = 'cdrx/pyinstaller-linux:python2'
             }
             steps {
